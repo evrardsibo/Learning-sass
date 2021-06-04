@@ -24,12 +24,37 @@ body{
 
 h1{
     font:{
+
          style:italic;
          size: 50px;
-         width: 20px;
+         weight: 20px;
          family:"Brush Script MT",cursive;
          display:block ;
 
     }
 
 }
+
+.sass{
+    background-color: rgb(212, 208, 208);
+    width: 300px;
+    h1{ font:{
+
+        family:serif;
+        style:oblique;
+        weight:bold;
+    }
+
+}
+    p{
+        color:indianred;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration: none;
+
+    }
+}
+

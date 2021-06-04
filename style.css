@@ -25,8 +25,29 @@ body {
 h1 {
   font-style: italic;
   font-size: 50px;
-  font-width: 20px;
+  font-weight: 20px;
   font-family: "Brush Script MT",cursive;
   font-display: block;
+}
+
+.sass {
+  background-color: #d4d0d0;
+  width: 300px;
+}
+
+.sass h1 {
+  font-family: serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.sass p {
+  color: indianred;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sass a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
