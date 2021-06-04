@@ -1,3 +1,35 @@
 body{
     background-color: beige;
 }
+
+.btn{
+    background-color: brown;
+
+    &:hover{ background-color: blue;
+    } 
+    &:visited{
+        background-color: chartreuse;
+    }
+}
+
+body{
+    background: {
+        image:url(https://raw.githubusercontent.com/evrardsibo/Progressive-enhancement/main/beach.jpg);
+        position: center;
+        attachment:fixed;
+        repeat:no-repeat;
+        size: auto;
+    }
+}
+
+h1{
+    font:{
+         style:italic;
+         size: 50px;
+         width: 20px;
+         family:"Brush Script MT",cursive;
+         display:block ;
+
+    }
+
+}
